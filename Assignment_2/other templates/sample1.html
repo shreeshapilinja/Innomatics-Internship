@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Form Styling */
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Employee List Styling */
+        ol {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto 20px;
+        }
+
+        ol li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        ol li:last-child {
+            border-bottom: none;
+        }
+
+        ol li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        ol li a:hover {
+            color: #4CAF50;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+
+        /* Embedded Map Styling */
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Company Directory Portal</h1>
+
+    <h2>Employee Registration</h2>
+    <form>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+            <option value="">Select Department</option>
+            <option value="hr">Human Resources</option>
+            <option value="it">Information Technology</option>
+            <option value="finance">Finance</option>
+            <option value="marketing">Marketing</option>
+        </select>
+
+        <label for="employeeId">Employee ID:</label>
+        <input type="number" id="employeeId" name="employeeId" required>
+
+        <label for="profilePicture">Profile Picture URL:</label>
+        <input type="url" id="profilePicture" name="profilePicture">
+
+        <button type="submit">Register Employee</button>
+    </form>
+
+    <h2>Employee List</h2>
+    <ol>
+        <li><a href="#employee1">John Doe - john.doe@company.com</a></li>
+        <li><a href="#employee2">Jane Smith - jane.smith@company.com</a></li>
+        <li><a href="#employee3">Bob Johnson - bob.johnson@company.com</a></li>
+    </ol>
+
+    <h2>Employee Details</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee ID</th>
+                <th>Department</th>
+                <th>Profile Picture</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="employee1">
+                <td>John Doe</td>
+                <td>1001</td>
+                <td>Human Resources</td>
+                <td><img src="/api/placeholder/100/100" alt="John Doe" width="100" height="100"></td>
+            </tr>
+            <tr id="employee2">
+                <td>Jane Smith</td>
+                <td>1002</td>
+                <td>Information Technology</td>
+                <td><img src="/api/placeholder/100/100" alt="Jane Smith" width="100" height="100"></td>
+            </tr>
+            <tr id="employee3">
+                <td>Bob Johnson</td>
+                <td>1003</td>
+                <td>Finance</td>
+                <td><img src="/api/placeholder/100/100" alt="Bob Johnson" width="100" height="100"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Company Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1842009534377!2d-73.98780268459391!3d40.748440179328055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1632910559343!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+</body>
+</html>

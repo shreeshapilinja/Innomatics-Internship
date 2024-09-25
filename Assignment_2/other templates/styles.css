@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    margin: 2em auto;
+    width: 80%;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#registration-form form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+#registration-form label {
+    text-align: right;
+    padding-right: 1em;
+}
+
+#registration-form input,
+#registration-form select,
+#registration-form button {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#registration-form button {
+    grid-column: 2 / 3;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registration-form button:hover {
+    background-color: #45a049;
+}
+
+#employee-list ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+#employee-list li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#employee-list a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+#employee-list a:hover {
+    text-decoration: underline;
+}
+
+#employee-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#employee-details th,
+#employee-details td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#employee-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#employee-details img {
+    border-radius: 50%;
+}
