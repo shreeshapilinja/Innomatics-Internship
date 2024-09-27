@@ -1,3 +1,4 @@
 - Github -> https://github.com/aiforshreesha1
 - Assignment - 1 -> https://aiforshreesha1.github.io/IN9245339Assignment1/ or https://eclectic-kringle-84df95.netlify.app/
 - Assignment - 2 -> https://aiforshreesha1.github.io/IN9245339Assignment2/ or https://innomaticsass2.netlify.app/
+- Assignment - 3 -> https://aiforshreesha1.github.io/IN9245339Assignment3/
