@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IN9245339 - Innomatics Static Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papd6uEog6Nj6KQjeq5dJDl5W7WmNdk1pb3SpTwqVhkzUvMSnV1WhTWBfgjEj3iG9MRqlTtKfQ+elA6KX70fRQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">&ensp;  Innomatics</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+				<li></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1>Welcome to Innomatics</h1>
+                <p>Your partner in innovative solutions.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2>Our Features</h2>
+                <div class="feature-items">
+                    <div class="feature-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovation</h3>
+                        <p>We bring creative ideas to life.</p>
+                        <img src="./images/Gemini_Generated_Image_c842d2c842d2c842.jpg" alt="Innovation">
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Efficiency</h3>
+                        <p>Optimizing processes for better results.</p>
+                        <img src="./images/Gemini_Generated_Image_1nor61nor61nor61.jpg" alt="Efficiency">
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Collaboration</h3>
+                        <p>Working together to achieve goals.</p>
+                        <img src="./images/Gemini_Generated_Image_1nor51nor51nor51.jpg" alt="Collaboration">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-items">
+                    <div class="service-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Building responsive and dynamic websites.</p>
+                        <img src="./images/website.jpg" alt="Web Development">
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>App Development</h3>
+                        <p>Creating user-friendly mobile applications.</p>
+                        <img src="./images/app.jpg" alt="App Development">
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Services</h3>
+                        <p>Offering scalable cloud solutions.</p>
+                        <img src="./images/cloud.jpg" alt="Cloud Services">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section" id="video">
+            <div class="container">
+                <h2>Watch Our Introduction</h2>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/3Tianf314TQ" 
+                            title="Innomatics Introduction Video" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-items">
+                    <div class="testimonial-item">
+                        <p>"Innomatics transformed our business with their innovative solutions."</p>
+                        <h4>Anya Riley</h4>
+                        <img src="./images/download1.jpg" alt="Anya Riley">
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"Their team is professional and highly skilled."</p>
+                        <h4>Kai Anya</h4>
+                        <img src="./images/download2.jpg" alt="Kai Anya">
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"Excellent service and support throughout our project."</p>
+                        <h4>Riley Kai</h4>
+                        <img src="./images/download3.jpg" alt="Riley Kai">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Innomatics Internship. All rights reserved.<br>Designed By Shreesha B</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
