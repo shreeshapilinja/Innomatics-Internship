@@ -1,7 +1,8 @@
-- Github -> https://github.com/aiforshreesha1
-- Assignment - 1 -> https://aiforshreesha1.github.io/IN9245339Assignment1/ or https://eclectic-kringle-84df95.netlify.app/
-- Assignment - 2 -> https://aiforshreesha1.github.io/IN9245339Assignment2/ or https://innomaticsass2.netlify.app/
-- Assignment - 3 -> https://aiforshreesha1.github.io/IN9245339Assignment3/
-- Assignment - 4 -> https://aiforshreesha1.github.io/IN9245339Assignment4/
-- Assignment - 5 -> https://aiforshreesha1.github.io/IN9245339Assignment5/
-- Assignment - 6 -> https://aiforshreesha1.github.io/IN9245339Assignment6/
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
