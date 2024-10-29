@@ -5,3 +5,5 @@
 - Assignment - 4 -> https://aiforshreesha1.github.io/IN9245339Assignment4/
 - Assignment - 5 -> https://aiforshreesha1.github.io/IN9245339Assignment5/
 - Assignment - 6 -> https://aiforshreesha1.github.io/IN9245339Assignment6/
+- Assignment - 7 -> https://aiforshreesha1.github.io/IN9245339Assignment7/
+- Assignment - 8 -> https://in-9245339-assignment8.vercel.app/
